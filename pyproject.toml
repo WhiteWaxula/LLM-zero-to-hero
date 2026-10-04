@@ -1,0 +1,14 @@
+[project]
+name = "llm-zero-to-hero"
+version = "0.1.0"
+description = "A project to learn LLMs from scratch"
+readme = "README.md"
+authors = [
+    { name = "WhiteWaxula", email = "whitewaxula@proton.me" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "ollama>=0.6.3",
+    "requests>=2.34.2",
+]
